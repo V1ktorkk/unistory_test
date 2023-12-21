@@ -1,0 +1,34 @@
+*{
+    font-family: Bebas Neue, serif;
+    color: white;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.header_main {
+    margin: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    background-color: #5A5A5A;
+    border: 1px dashed rgba(199, 199, 199, 1);
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.metamask_button {
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.2s ease;
+    background-color: #E75626;
+    border-radius: 30px;
+    width: 161px;
+    height: 39px;
+    &:active {
+        background-color: #c0c0c0;
+    }
+}

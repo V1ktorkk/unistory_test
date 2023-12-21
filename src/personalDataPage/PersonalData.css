@@ -1,0 +1,111 @@
+.personalData_main{
+    margin: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.info_image{
+    position: relative;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+
+.text_info{
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.data_info{
+    color: #E75626;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.personalData_main h1{
+    color: #FFF;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.div_with_data{
+    margin-bottom: 3%;
+}
+
+.planet_image {
+    position: absolute;
+    top: 50%;
+    left: 85%;
+    transform: translateY(-50%);
+}
+
+
+.data_elipse, .data_elipse2, .data_elipse3, .data_elipse4, .data_elipse5, .dot{
+    position: absolute;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 95%
+}
+
+.data_elipse {
+
+    z-index: -1;
+    width: 446px;
+    height: 446px;
+    background: #1E1E20;
+}
+
+.data_elipse2 {
+
+    z-index: -1;
+    width: 384px;
+    height: 384px;
+    border: 1px solid #323232;
+}
+
+.data_elipse3 {
+
+    z-index: -1;
+    width: 370px;
+    height: 370px;
+    border: 1px solid #323232;
+}
+
+.data_elipse4 {
+
+    z-index: -3;
+    width: 532px;
+    height: 532px;
+    background: #212124;
+}
+
+.data_elipse5{
+    z-index: -2;
+    width: 526px;
+    height: 526px;
+    flex-shrink: 0;
+    border-radius: 526px;
+    background: #171719;
+    filter: blur(11px);
+}
+
+.data_elipse6{
+    top: 15%;
+    left: 95%;
+    z-index: 1;
+    width: 243px;
+    height: 486px;
+    flex-shrink: 0;
+    stroke: #E75626;
+}
+
+.dot{
+    top: 86.5%;
+    left: 95%;
+}

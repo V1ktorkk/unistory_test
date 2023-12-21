@@ -1,0 +1,31 @@
+export const texts = {
+    logo: 'logo',
+    explore: 'explore your own planet',
+    in: 'in ',
+    metamask: 'metamask extention',
+    our: 'our new',
+    toWork:' To work with our application, you have to install the',
+    metaverse: 'metaverse',
+    extension:'  Metamask browser extension ',
+    skip: 'skip this step',
+    roadmap: 'roadmap stats',
+    number: '12, 345',
+    textUnderNumbers: 'Lorem ipsum dolor',
+    mainText: 'lorem ipsum dolor sit amet, consectetur adipiscing elit,' +
+        ' sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ' +
+        'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ' +
+        'ea commodo consequat.',
+    betaTestRegistration: 'beta test registration',
+    name: 'Name',
+    email: 'Email',
+    wallet: 'Wallet',
+    partitionList: 'Participation listing (enable only for participants)',
+    partitionListInfo: 'We will display your email in participation list',
+    buttonOn: 'List me to the table',
+    buttonOff:'get early access',
+    load: 'loading...',
+    error:'Произошла ошибка: ',
+    disconnect:'Disconnect',
+    buttonText: 'Connect metamask',
+    personalData: 'Personal data',
+};

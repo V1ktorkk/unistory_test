@@ -1,0 +1,179 @@
+.left_part{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+
+.placeholder_main{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+}
+
+.placeholder_main h1{
+
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.placeholder_main th, td{
+    color: #FFF;
+    font-family: Avenir Next Cyr, serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+
+
+.placeholder_main input{
+    border-radius: 30px;
+    border: 1px solid #FFF;
+    background-color: #171719;
+    height: auto;
+    padding: 2%;
+}
+
+.registration_text{
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+
+.text_under{
+    color: #FFF;
+    font-family: 'Avenir Next Cyr', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    width: auto;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+
+.user_and_button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.deleteButton{
+    background: url("/public/deleteButton.svg") no-repeat;
+    cursor: pointer;
+    width: auto;
+    height: 15px;
+}
+
+
+.undisabled_button_place{
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+}
+.button_api{
+    margin-top: 7%;
+}
+
+.placeholder_main h2 {
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.name_email_fields_dis {
+    color: #E75626;
+
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.name_email_fields_en{
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.right_part{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.button_api:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+
+.custom-scrollbar {
+    overflow-y: scroll;
+    max-height: 600px;
+    cursor: pointer;
+
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+    width: 2px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background-color: #ff6600;
+    border-radius: 2px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+    background-color: #000000;
+}
+
+
+.scrollbar-container {
+    overflow: hidden;
+}
+
+.custom-scrollbar {
+    overflow-y: scroll;
+    max-height: 600px;
+    cursor: pointer;
+
+}
+
+.table_api{
+    margin-right: 20px;
+}
+
+.table_api th{
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.table_api td{
+    color: #FFF;
+    font-family: 'Avenir Next Cyr', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.table_api tbody tr.deleted-row td {
+    color: #E75626;
+}

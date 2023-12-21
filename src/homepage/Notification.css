@@ -1,0 +1,52 @@
+
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #262628;;
+    padding: 20px;
+    width: 350px;
+    z-index: 999;
+}
+
+.modal-content {
+    text-align: center;
+}
+.modal-content h1{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 43px;
+    color: #E75626;
+
+}
+
+.modal-content button {
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.2s ease;
+    background-color: #E75626;
+    border-radius: 30px;
+    width: 161px;
+    height: 39px;
+    &:active {
+        background-color: #c0c0c0;
+    }
+}
+
+.modal p{
+    color:white;
+
+}
+
+.extension-link {
+    color: #E75626;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.extension-link:hover {
+    color: #E75626;
+}
+
+

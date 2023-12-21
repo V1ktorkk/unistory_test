@@ -1,0 +1,17 @@
+
+button {
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.2s ease;
+    background-color: #E75626;
+    border-radius: 30px;
+    width: 161px;
+    height: 39px;
+    &:active {
+        background-color: #c0c0c0;
+    }
+}
+
+p{
+    color: #E75626;
+}

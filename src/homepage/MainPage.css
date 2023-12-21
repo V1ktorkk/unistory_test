@@ -1,0 +1,231 @@
+.first_part {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 50%;
+}
+
+.second_part{
+    margin-top: 10%;
+}
+
+.main_page{
+    margin: 10% 5% 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.text_under_first_part{
+    color: #FFF;
+    font-family: 'Avenir Next Cyr', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    width: 30%;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+.text_comp {
+    position: relative;
+    margin: 0;
+}
+
+#main_text{
+    top:-23.5px;
+    left: 13px;
+}
+
+.text_comp p {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 120px;
+    font-weight: 700;
+    line-height: 144px;
+    letter-spacing: 0;
+    text-align: left;
+    margin: 0;
+    z-index: 2;
+    position: relative;
+    color: white;
+    left: 1.2%;
+    top: -2%;
+}
+
+
+img {
+    align-self: flex-start;
+    position: absolute;
+    top: -15.5%;
+    left: 66.8%;
+    z-index: 3;
+}
+
+.text_comp .highlight {
+    font-size: 120px;
+    font-weight: 700;
+    line-height: 144px;
+    letter-spacing: 0;
+    color: black;
+    -webkit-text-stroke: 0.01vw white;
+}
+
+.right_part{
+    color: #FFF;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 1px;
+}
+
+.roadmap_stats{
+    text-align: center;
+}
+
+.numbers{
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+
+    letter-spacing: 1px;
+}
+
+.text_under_numbers{
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+
+}
+
+
+
+.line{
+    border: 1px solid #D2C4C4;
+
+}
+
+.dataFrame{
+    position: absolute;
+    z-index: 1;
+    top: -50%;
+    left: 80%;
+}
+
+.elipse, .elipse2, .elipse3, .elipse4, .elipse5 {
+    position: absolute;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.elipse {
+    top: 40%;
+    left: 83%;
+    z-index: -1;
+    width: 446px;
+    height: 446px;
+    background: #1E1E20;
+}
+
+.elipse2 {
+    top: 40%;
+    left: 83%;
+    z-index: -1;
+    width: 384px;
+    height: 384px;
+    border: 1px solid #323232;
+}
+
+.elipse3 {
+    top: 40%;
+    left: 83%;
+    z-index: -1;
+    width: 370px;
+    height: 370px;
+    border: 1px solid #323232;
+}
+
+.elipse4 {
+    top: 40%;
+    left: 83%;
+    z-index: -3;
+    width: 532px;
+    height: 532px;
+    background: #212124;
+}
+
+.elipse5{
+    top: 40%;
+    left: 83%;
+    z-index: -2;
+    width: 526px;
+    height: 526px;
+    flex-shrink: 0;
+    border-radius: 526px;
+    background: #171719;
+    filter: blur(11px);
+}
+
+
+
+.circle__wrapper {
+    width: 230px;
+    height: 545px;
+    position: absolute;
+    z-index: 0;
+    top: -46%;
+    left: 84%;
+    overflow: hidden;
+}
+
+.circle__wrapper--right {
+    right: 0;
+}
+
+.circle__whole {
+    width: 505px;
+    height: 505px;
+    border: 2px solid transparent;
+    border-radius: 200%;
+    position: absolute;
+    top: 0;
+    transform: rotate(-135deg);
+}
+
+.circle__right {
+    border-top: 1px solid #E75626;
+    border-right: 1px solid #E75626;
+    right: 1px;
+    animation: circleRight 6s linear forwards ;
+}
+
+
+@keyframes circleRight {
+    0% {
+        transform: rotate(-135deg);
+    }
+    50% {
+        transform: rotate(50deg);
+    }
+    51% {
+        transform: rotate(50deg);
+    }
+    100% {
+        transform: rotate(50deg);
+    }
+}
+
+
+.dot_main1{
+    position: absolute;
+    z-index: 10;
+    top: 45%;
+    left: 106.5%;
+}
+.dot_main2{
+    position: absolute;
+    z-index: 10;
+    top: 129%;
+    left: 84%;
+}
+
+

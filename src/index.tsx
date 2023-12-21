@@ -1,19 +1,40 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import MainPage from './homepage/MainPage';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
+import { Mainnet, DAppProvider, Config, Goerli } from '@usedapp/core'
+import { getDefaultProvider } from 'ethers'
+import PersonalData from "./personalDataPage/PersonalData";
+import {DataProvider} from "./personalDataPage/DataContext";
+import {ConnectionButtonProvider} from "./homepage/ConnectionButton";
+
+const config: Config = {
+    readOnlyChainId: Mainnet.chainId,
+    readOnlyUrls: {
+        [Mainnet.chainId]: getDefaultProvider('mainnet'),
+        [Goerli.chainId]: getDefaultProvider('goerli'),
+    },
+}
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+    <React.StrictMode>
+        <Router>
+            <DAppProvider config={config}>
+                <DataProvider>
+                    <ConnectionButtonProvider>
+                <Routes>
+                    <Route path="/" element={<MainPage />} />
+                    <Route path="/personal-data/:id" element={<PersonalData />} />
+                </Routes>
+                    </ConnectionButtonProvider>
+                </DataProvider>
+
+            </DAppProvider>
+        </Router>
+    </React.StrictMode>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
